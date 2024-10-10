@@ -1,0 +1,106 @@
+.bandeau{
+
+	background-color: black;
+    color: white;
+    width: 250px;
+    height: 1050.4px;
+    position: absolute;
+    right: 0;
+    justify-content: center;
+    writing-mode: vertical-rl;
+    text-align: center;
+    font-size: 18px;
+    z-index: 0;
+    padding: 10px;
+}
+
+
+h1{
+	color: white;
+	margin: 0;
+	font-size: 80px;
+}
+
+header{
+	display: flex;
+}
+
+body{
+	margin: 0;
+}
+
+section{
+	display: flex;
+	flex-direction: column-reverse;
+
+}
+
+.experiences{
+	font-size: 18px;
+	z-index: 0;
+	margin-left: 10px;
+
+}
+
+.tel{
+	border-style: solid;
+	text-align: center;
+	border-radius: 5em;
+	width: 30%;
+	margin: auto;
+	margin-top: 15px;
+	 transition: border-width 0.3s ease, border-color 0.3s ease;
+	 z-index: 0;
+}
+
+.tel:hover{
+	border-width: 8px;
+}
+
+.np{
+	display: flex;
+	background-color: black;
+	width: 90%;
+	padding-top: 5em;
+
+}
+
+.hd{
+	
+	text-align: center;
+	width: 100%;
+	background-color: #D4D3DC;
+	z-index: 1;
+}
+
+.intro{
+	text-align: center;
+}
+
+p{
+	margin: 0, 0, 3, 3;
+}
+
+
+a:hover{
+	background-color: skyblue;
+}
+
+.fin{
+	display: flex;
+	justify-content: center;
+	margin-right: 20%;
+}
+
+.centres{
+	display: flex;
+	flex-direction: column;
+	margin-left: 20%;
+}
+
+.qualitées{
+	display: flex;
+	flex-direction: column;
+}
+
+
